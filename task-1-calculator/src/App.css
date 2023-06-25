@@ -1,0 +1,91 @@
+.app {
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  background-color: #4D8AC8;
+}
+
+.calculator {
+  background: #EBF5FF;
+  box-shadow: 0 16px 16px -8px black;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 30px;
+  width: 500px;
+}
+
+.lightblue {
+  background-color: #A2D0FA;
+  color: #4D8AC8;
+}
+
+.display {
+  width: 26em;
+}
+
+.display>input {
+  box-sizing: border-box;
+  background-color: #CCE5FF;
+  outline: none;
+  height: 100px;
+  width: 100%;
+  color: #4D8AC8;
+  border: none;
+  font-size: 1.2em;
+  border-radius: 15px;
+  position: relative;
+  padding-bottom: 2.5em;
+  /* Adjust the value as needed */
+}
+
+.result {
+  position: relative;
+  font-size: 20px;
+  /* background: #000; */
+  top: -3em;
+  left: 15.3em;
+  width: 100px;
+  /* Adjust the width as needed */
+  height: 50px;
+  /* Adjust the height as needed */
+  overflow: auto;
+  /* Add any additional styling you require */
+  word-wrap: break-word;
+}
+
+#equalTo {
+  color: #fff;
+  background: #4D8AC8;
+}
+
+.buttons {
+  width: 400px;
+}
+
+.buttons_row {
+  display: flex;
+}
+
+table {
+
+  width: 28em;
+  border-spacing: 15px;
+  /* border-collapse: collapse; */
+}
+
+td {
+  box-sizing: border-box;
+  font-weight: 800;
+  font-size: 16px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 15px;
+  background-color: #CCE5FF;
+  margin: 10px;
+}
