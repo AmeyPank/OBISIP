@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+}
+
+.App {
+  margin: 0;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #282c34;
+}
+
+
+.App-header {
+
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #61dafb;
+}
+
+.App-header h1 {
+  position: relative;
+  font-weight: 500;
+  padding-top: 2em;
+}
+
+.App-header h2 {
+  position: relative;
+  font-weight: 500;
+  top: -1.5rem;
+}
+
+#play-button {
+  font-size: 70px;
+  padding-top: .7em;
+  padding-bottom: 1.3em;
+  cursor: pointer;
+}
+
+.image-container {
+
+  background: url("./img/mid-image.jpg");
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+
+}
+
+.text-content {
+  position: relative;
+  top: 12em;
+  left: 15em;
+  width: 200px;
+  text-align: start;
+  word-wrap: break-word;
+  line-height: 1.5em;
+  letter-spacing: .05em;
+}
+
+.content-container {
+  /* margin-top: 5rem; */
+  width: 42%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  color: #ffff;
+  padding-bottom: 20px;
+  border-bottom: 2px solid #ffff;
+}
+
+.content-container h1 {
+  padding-top: 1.5em;
+  padding-bottom: .5em;
+  font-size: 44px;
+  font-weight: 500;
+  letter-spacing: 0.015em;
+
+}
+
+.content-container p {
+  font-size: 15px;
+  letter-spacing: 0.05em;
+  line-height: 1.5em;
+
+}
+
+
+footer a {
+  color: #fff;
+}
+
+footer {
+  color: #fff;
+  padding: 20px;
+}
+
+footer #name {
+  font-family: 'Times New Roman', Times, serif;
+  color: #61dafb;
+}
