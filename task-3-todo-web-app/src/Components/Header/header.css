@@ -29,6 +29,7 @@
 
 @media (max-width: 599px) {
     .header {
+        
         width: 20em;
         display: flex;
         align-items: center;
