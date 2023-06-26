@@ -1,0 +1,80 @@
+.input-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 20px;
+    background: #ffff;
+    height: 20em;
+    border-radius: 10px;
+}
+
+.input-container input {
+    width: 20rem;
+    height: 2.5rem;
+    border: 1px solid #ccc;
+    margin-left: auto;
+    margin-right: auto;
+    color: #cfcfcf;
+    font-size: 16px;
+    border-radius: 10px;
+
+    transition: 0.9s ease;
+    margin-bottom: 1em;
+}
+
+.input-container input:hover {
+    color: #000000;
+    background: #ffffff;
+}
+
+.input-container input::placeholder {
+
+    position: relative;
+}
+
+.input-container textarea {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-size: 16px;
+    height: 10em;
+    margin-bottom: 1em;
+    width: 20rem;
+}
+
+#add-todo-btn {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 6px 12px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(40, 189, 68);
+    transition: 0.9s ease;
+    width: 200px;
+}
+
+#add-todo-btn:hover {
+    color: rgb(245, 245, 245);
+    background-color: rgb(120, 120, 120);
+}
+
+
+input:focus {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+@media (max-width:499px) {
+    #add-todo-btn {
+        margin-top: 1rem;
+        right: 3px;
+    }
+}
+
+/* run build */

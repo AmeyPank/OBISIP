@@ -1,0 +1,22 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    margin-top: auto;
+
+}
+
+.footer__text {
+    vertical-align: bottom;
+    text-align: center;
+    font-size: 12px;
+    color: #888;
+}

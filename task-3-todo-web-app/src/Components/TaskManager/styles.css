@@ -1,0 +1,167 @@
+.app-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    border-radius: 10px;
+    width: 80em;
+}
+
+/* CSS for TaskList component */
+.tasks-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.tasks-container ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.empty-tasks {
+    color: #999;
+    padding: 10px;
+    text-align: center;
+}
+
+@media (max-width:1200px) {
+    .app-container {
+        width: 60em;
+    }
+
+    .tasks-container {
+        padding-top: 20px;
+        width: 60em;
+    }
+
+    .tasks-container ul {
+        width: 40em;
+    }
+
+    .description {
+
+        width: 35rem;
+
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 20px;
+        background: #ffff;
+        height: 20em;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width:999px) {
+    .app-container {
+        flex-direction: column;
+        width: 40em;
+    }
+
+    .tasks-container {
+        padding-top: 20px;
+        width: 40em;
+    }
+
+    .tasks-container ul {
+        width: 40em;
+    }
+
+    .description {
+
+        width: 35rem;
+
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 20px;
+        background: #ffff;
+        height: 20em;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 769px) {
+    .app-container {
+
+        flex-direction: column;
+
+
+
+        width: 30em;
+    }
+
+    .tasks-container {
+        padding-top: 20px;
+        width: 30em;
+    }
+
+    .tasks-container ul {
+        width: 30em;
+    }
+
+    .description {
+
+        width: 30rem;
+
+    }
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 20px;
+        background: #ffff;
+        height: 20em;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 599px) {
+    .app-container {
+
+        flex-direction: column;
+
+
+
+        width: 20em;
+    }
+
+    .tasks-container {
+        padding-top: 20px;
+        width: 20em;
+    }
+
+    .tasks-container ul {
+        width: 20em;
+    }
+
+    .description {
+
+        width: 20rem;
+
+    }
+
+
+}

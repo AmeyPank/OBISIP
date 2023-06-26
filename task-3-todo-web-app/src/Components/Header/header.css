@@ -1,0 +1,37 @@
+.heading {
+    background-color: #ffffff;
+    padding: 0px;
+
+    height: 5rem;
+    width: 100%;
+}
+
+.heading__title {
+    box-sizing: border-box;
+    margin: 0;
+    padding-top: 1em;
+    padding-left: 3em;
+    font-size: 24px;
+    color: #000000;
+}
+
+
+
+
+@media (max-width: 769px) {
+    .header {
+        width: 30em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 599px) {
+    .header {
+        width: 20em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
